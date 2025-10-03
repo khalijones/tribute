@@ -1,0 +1,251 @@
+<html>
+<head>
+ <title>Muhammad Ali – The Greatest</title>
+  <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+    }
+    a {
+      color: #f5c542;
+      text-decoration: none;
+    }
+
+    /* --- Hero Section --- */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                  url('https://i.ebayimg.com/00/s/MTI4MFgxNjAw/z/Xu0AAOSwEOJb5Mlz/$_1.JPG?set_id=880000500F') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #f5c542;
+      animation: fadeInDown 1.5s ease;
+    }
+    .hero p {
+      max-width: 700px;
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      animation: fadeInUp 2s ease;
+    }
+
+    /* --- About Section --- */
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .about, .timeline, .admire {
+      margin-bottom: 3rem;
+    }
+    .section-title {
+      color: #f5c542;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ---------- Timeline ---------- */
+    .timeline ul {
+      list-style: none;
+      position: relative;
+      padding-left: 1rem;
+    }
+    .timeline ul::before {
+      content: '';
+      position: absolute;
+      left: 15px;
+      top: 0;
+      width: 3px;
+      height: 100%;
+      background: #f5c542;
+    }
+    .timeline li {
+      margin-bottom: 1.5rem;
+      padding-left: 2rem;
+      position: relative;
+    }
+    .timeline li::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      width: 15px;
+      height: 15px;
+      background: #f5c542;
+      border-radius: 50%;
+    }
+    .timeline li h3 {
+      margin-bottom: 0.5rem;
+      color: #f5c542;
+    }
+
+/* ---------- Image Column ---------- */
+    .column {
+  width: 33.3%;
+  margin: 0 auto 16px auto; 
+  padding-right: 50px;
+  text-align: center; 
+  
+}
+    .container {
+      padding: 0 16px;
+      color: #f5f5f5;
+    }
+
+
+    /* --- Admire Section --- */
+    .admire p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    /* --- Footer --- */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    footer span {
+      color: #f5c542;
+    }
+
+    /* ---------- Animations ---------- */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <h1>Muhammad Ali – The Greatest</h1>
+    <p>“We can't be brave without fear.”</p>
+  </header>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2 class="section-title">About Muhammad Ali</h2>
+    <p>
+      Muhammad Ali, born Cassius Marcellus Clay Jr. (1942–2016), was an American professional boxer, activist, and philanthropist. Widely regarded as one of the most significant sports figures of the 20th century, Ali was known for his unmatched skill in the ring and his bold, charismatic personality. His unwavering confidence and commitment to his beliefs, even in the face of adversity, made him an icon beyond sports.More than any other sportsman in history, Muhammad Ali transcended his sport to reach out to people as a role model and hero.
+    </p>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline" id="timeline">
+    <h2 class="section-title">Key Milestones</h2>
+    <ul>
+      <li>
+        <h3>Rome 1960</h3>
+        <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ-Zj214hda_HYx_njQD3_aV8nTrVRKGNg7hv3ZJz3i92a4MmKsJACBx7jxQWDmcSqefA&usqp=CAU" style="width:100%;max-width:150px;height:auto;">
+        <p>As Cassius Clay, Ali travelled to the 1960 Rome Games to compete in the light heavyweight division. Despite being only 18, he won all four of his fights easily. In the final he defeated three-time European champion Zbigniew Pietrzykowski to win the gold medal.</p>
+      </li>
+      <li>
+        <h3>Legend</h3>
+        <image src="https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/muhammad-ali-sonny-liston-gettyimages-517258692?_a=BAVAZGID0" style="width:100%;max-width:150px;height:auto;"></image>
+        <p>Clay turned professional and won the heavyweight World Championship for the first time in 1964, beating Sonny Liston in a legendary fight. Over the next four years he defended his title nine times, converted to Islam and changed his name to Muhammad Ali.</p>
+      </li>
+      <li>
+        <h3>No More War</h3>
+                <image src="https://www.southerncultures.org/wp-content/uploads/2016/08/Smith-art-3-copy.jpg" style="width:100%;max-width:150px;height:auto;"></image>
+        <p>Refused to be drafted into the Vietnam War, citing his religious beliefs and opposition to the war. He was stripped of his title but stood firm in his convictions.</p>
+      </li>
+      <li>
+        <h3>Thriller in Manila</h3>
+                <image src="https://www.wbaboxing.com/wp-content/uploads/2014/10/Ali-Frazier-III.jpg" style="width:100%;max-width:150px;height:auto;"></image>
+        <p>Ali regained his title in 1974 by knocking out George Foreman in a fight staged in the present-day Democratic Republic of Congo, (formerly Zaire) known as “the Rumble in the Jungle”. In 1975 he beat Joe Frazier in “the Thriller in Manila”. He eventually retired from boxing in 1981 with a professional record of 56 wins and 5 losses.</p>
+      </li>
+      <li>
+        <h3>Great Honour</h3>
+                <image src="https://i.ytimg.com/vi/80wMMFAcweQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDhySfpw1A3O4_85JE5LwpH-FqxZg" alt="Muhammad Ali 1960" style="width:100%;max-width:150px;height:auto;"></image>
+        <p>In 1996, Ali was chosen to light the flame during the Opening Ceremony of the Atlanta Olympic Games. He has devoted much of his life to humanitarian affairs. In 1998 Ali was honoured with the United Nations Messenger of Peace award.</p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="column">
+
+      <img src="https://i.pinimg.com/736x/ca/73/f4/ca73f40e8f78470bc2458d4cf187dc49.jpg" style="width:100%" alt="Young Muhammad Ali wearing a white boxing robe and gloves stands confidently in a boxing ring with a determined expression. The background shows the ropes and dimly lit arena, creating a focused and intense atmosphere. No visible text in the image.">
+      <div class="container">
+        <h4><b>Muhammad Ali passed away on June 3, 2016.</b></h4>
+        <p>"Float like a butterfly, sting like a bee—this was not just a punchline, but a philosophy of fearlessness and self-belief." This quote depicts how Muhammad Ali lived his life with fearlessness and self-belief.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="timeline" id="timeline">
+    <h2 class="section-title">More About Him</h2>
+    <ul>
+      <li>
+        <h3>Philanthropy</h3>
+        <p>Ali was known for his charitable work, including supporting organizations like the Special Olympics and the Make-A-Wish Foundation. He also established the Muhammad Ali Center in Louisville, Kentucky, to promote his values of respect, hope, and courage.</p>
+      </li>
+      <li>
+        <h3>Parkinson's Disease</h3>
+        <p>In 1984, Ali was diagnosed with Parkinson's disease, a condition that affects movement and speech. Despite his diagnosis, he continued to make public appearances and advocate for Parkinson's research and awareness.</p>
+      </li>
+      <li>
+        <h3>Cultural Impact</h3>
+        <p>Ali's influence extended beyond boxing. He was a cultural icon who inspired music, literature, and film. His life story has been depicted in numerous documentaries and biopics, highlighting his impact on sports and society.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="timeline" id="timeline">
+    <h2 class="section-title">Famous Quotes</h2>
+    <ul>
+      <li>
+        <h3>"We can't be brave without fear"</h3>
+        <p>This quote suggesting that courage is not the absence of fear, but rather the ability to act despite it.</p>
+      </li>
+      <li>
+        <h3>"I am the greatest. I said that even before I knew I was."</h3>
+        <p>Ali's confidence and self-belief were key to his success both in and out of the ring.</p>
+      </li>
+      <li>
+        <h3>"Service to others is the rent you pay for your room here on earth."</h3>
+        <p>This quote reflects Ali's commitment to philanthropy and helping others.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="admire" id="admire">
+    <h2 class="section-title">Why I Admire Him</h2>
+    <p>
+      As a software engineering student, I admire Muhammad Ali not only for his strength but for his mindset. He taught me that greatness begins with self-belief — to say “I am the greatest” even before achieving it. In coding and problem-solving, resilience and confidence matter most. His courage to stand for his values inspires me to face challenges with integrity, discipline, and persistence — both in life and in tech.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span>@Jones</span> | Inspired by Muhammad Ali’s Legacy
+  </footer>
+
+</body>
+</html>
